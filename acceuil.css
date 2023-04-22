@@ -1,0 +1,98 @@
+.row {
+    padding-top: 150px;
+    text-align: center;
+    height: 88%;
+    padding-bottom: 80px;
+}
+
+.col {
+    display: flex;
+    width: fit-content;
+    margin: auto;
+    margin-top: 70px;
+}
+
+h1 {
+    color: #fff;
+    font-size: 100px;
+}
+
+p {
+    color: #fff;
+    font-size: 15px;
+    line-height: 15px;
+}
+
+.row button {
+    width: 200px;
+    color: #000;
+    font-size: 14px;
+    padding: 18px;
+    background: #fff;
+    border: 0;
+    border-radius: 20px;
+    outline: none;
+    margin-top: 35px;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.row button:hover {
+    transform: scale(1.1);
+}
+
+.first a {
+    text-decoration: none;
+    transition: 0.5s;
+}
+
+.first a:hover {
+    color: rgb(205, 206, 156);
+}
+
+.card {
+    width: 200px;
+    height: 230px;
+    border-radius: 10px;
+    padding: 15px 25px;
+    box-sizing: border-box;
+    cursor: pointer;
+    margin: 10px 20px;
+    background-position: center;
+    background-size: cover;
+    transition: transform 0.5s;
+}
+
+.card1 {
+    background-image: url(Images/africa.jpg);
+}
+
+.card2 {
+    background-image: url(Images/europe.jpg);
+}
+
+.card3 {
+    background-image: url(Images/asie.jpg);
+}
+
+.card4 {
+    background-image: url(Images/america.jfif);
+}
+
+.card5 {
+    background-image: url(Images/xaustralia.jpg);
+}
+
+.card:hover {
+    transform: translateY(-10px);
+}
+
+h5 {
+    color: #fff;
+    text-shadow: 0 0 5px #999;
+}
+
+.card p {
+    text-shadow: 0 0 15px #000;
+    font-size: 8px;
+}
